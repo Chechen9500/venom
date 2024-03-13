@@ -1,0 +1,208 @@
+/* head */
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.search{
+    background-color: rgb(247, 224, 24);
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    overflow: hidden;
+    background-color: rgb(247, 224, 24);
+    border-bottom: solid 4px white ;
+}
+
+
+.search input{
+    background-color: rgb(247, 224, 24);
+    border: none;
+    outline: none;
+    width: 280px;
+    outline: none;
+    font-size: 18px;
+    padding-right: 10px;
+    background-color: transparent;
+}
+
+
+
+.search button{
+    border: none;
+    background-color: transparent;
+}
+
+.search img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.line{
+    width: 370px;
+    height: 100px;
+    background-color: rgb(247, 224, 24);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.logo{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    width: 180px;
+}
+
+
+/* main */
+
+.categori ul{
+    width: 300px;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    color:aliceblue;
+    padding-top: 25px;
+}
+
+.categori{
+    width: 384px;
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+}
+
+.categori li{
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+
+.categori li:hover{
+    color: yellow;
+    border-left: 2px;
+    border-color: black  black black yellow;
+    border-style: solid;
+}
+
+body{
+    margin: 0%;
+    justify-content: space-evenly;
+}
+
+.image{
+    background-image: url(img/Веном.jpg);
+    height: 450px;
+    width: 900px;
+    color: white;
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+    padding-top: 310px;
+    font-size: 100px;
+    padding-left: 80px;
+}
+
+main{
+    display: flex;
+    width: 1652px;
+    margin: 0;
+}
+
+.content_bottom{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left h2{
+    font-size: 30px;
+}
+
+.left ul{
+    list-style: none;
+    font-size: 30px;
+    padding: 0px;
+    margin: 0%;
+}
+
+.left li{
+    padding-bottom: 15px;
+    text-decoration-skip-ink: none;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(247, 224, 24);
+}
+
+.right h2{
+    font-size: 30px;
+}
+
+.main_content{
+    width: 900px;
+}
+
+.one{
+    background-image: url(img/Реклама\ 1.jpg);
+    height: 200px;
+    width: 400px;
+    margin: 40px;
+    background-repeat: round;
+
+}
+
+.two{
+    background-image: url(img/Реклама\ 2.jpg);
+    height: 200px;
+    width: 400px;
+    padding-top: 50px;
+    margin: 40px;
+    background-repeat: round;
+}
+
+.three{
+    background-image: url(img/Неудержимые.jpg);
+    height: 300px;
+    width: 400px;
+    margin: 40px;
+    background-repeat: round;
+}
+
+.advertising h2{
+    color: yellow;
+    text-align: center;
+}
+
+.advertising{
+    background-color: rgb(0, 0, 0);
+    width: 500px;
+}
+
+.form input, .form label, .form button {
+    display: block;
+    margin-bottom: 17px;
+}
+
+.form label{
+    display: flex;
+}
+
+.poisk{
+    width: 235px;
+    height: 50px;
+    font-size: 15px;
+}
+
+.form button{
+    border: none;
+    background-color: rgb(247, 224, 24);
+    height: 45px;
+    width: 150px;
+    color: white;
+}
